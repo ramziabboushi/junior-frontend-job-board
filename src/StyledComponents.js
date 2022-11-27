@@ -4,8 +4,6 @@ import Box from "@mui/material/Box";
 import Input from "@mui/material/Input";
 import { Typography } from "@mui/material";
 
-import MAIN_FONT from "../public/hk-grotesk.bold.ttf";
-
 export const PRIMARY_GREEN = "#007D87";
 export const ACCENT_PURPLE = "#331E7D";
 export const PRIMARY_NAVY = "#050A30";
@@ -17,7 +15,7 @@ export const LoginContainer = styled(Box)(() => ({
   backgroundColor: "#0A1929",
   display: "flex",
   justifyContent: "center",
-  alignItems: "center"
+  alignItems: "center",
 }));
 
 export const LoginBox = styled(Box)(() => ({
@@ -30,7 +28,7 @@ export const LoginBox = styled(Box)(() => ({
   justifyContent: "center",
   alignItems: "center",
   boxSizing: "border-box",
-  borderRadius: 10
+  borderRadius: 10,
 }));
 
 export const LoginInput = styled(Input)(() => ({
@@ -38,12 +36,12 @@ export const LoginInput = styled(Input)(() => ({
   borderRadius: 5,
   margin: "5px 0",
   padding: "3px 5px",
-  color: "white"
+  color: "white",
 }));
 
 export const PrimaryButton = styled(Button)(() => ({
   background: PRIMARY_GREEN,
-  borderRadius: "25px"
+  borderRadius: "25px",
 }));
 
 export const JobCategory = styled(Typography)(() => ({
@@ -57,7 +55,7 @@ export const JobCategory = styled(Typography)(() => ({
   margin: "2px",
   padding: "4px 6px",
   borderRadius: "4px",
-  boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px"
+  boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",
 }));
 
 export const JobBox = styled(Box)(() => ({
@@ -66,7 +64,7 @@ export const JobBox = styled(Box)(() => ({
   mb: "2px",
   p: "20px 30px",
   boxSizing: "border-box",
-  ml: "10px"
+  ml: "10px",
 }));
 
 export const JobDetailsTitle = styled(Typography)(() => ({
@@ -77,7 +75,7 @@ export const JobDetailsTitle = styled(Typography)(() => ({
   textAlign: "left",
   marginBottom: "0px",
   width: "100%",
-  fontFamily: "Segoe UI"
+  fontFamily: "Segoe UI",
 }));
 
 export const JobDetailsText = styled(Typography)(() => ({
@@ -86,5 +84,5 @@ export const JobDetailsText = styled(Typography)(() => ({
   color: "#666666",
   fontSize: "15px",
   textAlign: "left",
-  marginBottom: "10px"
+  marginBottom: "10px",
 }));
